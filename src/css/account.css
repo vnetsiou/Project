@@ -1,0 +1,73 @@
+body{
+  margin: auto;
+  background-image: url("edit.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 1080px;
+}
+
+
+ul {
+  list-style-type: none;
+  background-color: rgba(225,225,225,0.3);
+  width: 100%;
+  
+  margin-top: 20px;
+  padding: 0;
+  font-size: 27px;
+  font-family: sans-serif;
+  border-bottom: 5px solid rgba(255,170,170,0.3);
+  transition:0.5s;
+  overflow: hidden;
+
+}
+li a {
+  text-decoration: none;
+  display: inline;
+  color: rgb(153, 55, 51);  
+  padding: 14px 16px;
+}
+
+li {
+  float: left;
+}
+
+li:hover {
+  height:auto;
+  background-color:  rgba(255,170,170,0.3);
+  
+  box-shadow:  0 0 0 5px rgba(255,170,170,0.3);
+  transition:0.3s;
+}
+
+ul li:nth-last-child(2)  {
+  margin-left:950px;
+}
+
+.container{
+  width:500px;
+  margin-left: 700px;
+  border-radius: 25px;
+  margin-top: 180px; 
+  background-color: rgba(255,255,255,0.3);
+  border: 5px groove rgba(255,170,170,0.3);
+
+}
+p{
+color: rgb(20, 20, 20);
+font-size: 25px;
+margin-top: 10px;
+}
+
+p[name=heading]
+{
+ color: rgb(153, 55, 51);
+ font-size: 30px;
+
+}
+a[name=pass]
+{
+  text-decoration: none;
+  color: rgb(153, 55, 51);
+
+}
+

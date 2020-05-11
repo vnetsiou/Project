@@ -1,0 +1,23 @@
+.NYCB{
+	float:left;
+	margin-right: 10%;
+	margin-left:10%;
+	margin-top: 5%;
+}
+
+.VBA{
+	float:left;
+	margin-top: 5%;
+	margin-right: 10%;
+}
+
+.BBA{
+	float:left;
+	margin-top: 5%;
+}
+
+
+p{
+	text-align: center;
+	font-size: 25px;
+}
